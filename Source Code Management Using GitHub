@@ -1,0 +1,67 @@
+# Experiment 3: Source Code Management Using GitHub
+
+## Aim
+To practice source code management using GitHub and maintain the source code developed in Experiment 1.
+
+## Objectives
+1. To understand source code management using GitHub.
+2. To create and manage a repository.
+3. To upload and maintain project source code.
+4. To track changes and maintain different versions of files.
+5. To understand commits, branches, and collaboration.
+
+## Software Requirements
+- GitHub account
+- Web browser
+- HTML editor or text editor
+- Source code developed in Experiment 1
+
+## Introduction
+Source Code Management (SCM) is the process of tracking and managing changes to software source code. Git is a distributed version control system, while GitHub is a web-based platform for hosting Git repositories and collaborating on projects.
+
+## Procedure
+1. Log in to GitHub.
+2. Open the existing repository or create a new repository.
+3. Click **Add file → Create new file** to add project files.
+4. Add the source code developed in Experiment 1, which is the event user registration form.
+5. Enter a suitable filename, such as `index.html`.
+6. Commit the file with a meaningful commit message.
+7. Verify that the source code is available in the repository.
+8. Edit the file to make a change and commit the updated version.
+9. Review the file history to understand how GitHub tracks changes.
+
+## Sample Source Code: Event Registration Form
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+</head>
+<body>
+    <h2>Event Registration Form</h2>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label>Phone:</label>
+        <input type="tel" name="phone" required><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
+```
+
+## Result
+Successfully practiced source code management using GitHub by adding source code, committing changes, and exploring file version history.
+
+## Applications
+- Version control
+- Team collaboration
+- Source code backup
+- Change tracking
+- Software project management
